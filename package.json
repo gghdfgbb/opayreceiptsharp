@@ -1,0 +1,24 @@
+{
+  "name": "opay-receipt-generator",
+  "version": "1.0.0",
+  "description": "A web application to generate and download OPay transaction receipts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "opay",
+    "receipt",
+    "generator",
+    "transaction"
+  ],
+  "author": "OPay Receipt Generator",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
